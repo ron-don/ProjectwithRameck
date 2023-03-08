@@ -127,7 +127,7 @@ a{
   color: #444;
 }
 
-#pricing {
+.pricing {
   margin-top: 60px;
   display: flex;
   flex-direction: row;
@@ -154,7 +154,7 @@ a{
   font-weight: 700;
 }
 
-product > h2 {
+.product > h2 {
   margin-top: 15px;
 }
 
