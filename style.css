@@ -1,15 +1,48 @@
-@media only screen and (max-width: 600px) {
-    body {
-      background-color: #b3b6b7;
-    }
-  }
+body{
+  margin: 0;
+}
 
-  #header {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-  }
+#header{
+  position: fixed;
+  top: 0;
+  min-height: 75px;
+  padding: 0px 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: lightblue;
+}
+ 
+.logo-heading{
+  width: 60vw;
+}
 
-  #nav-bar {
-    display: flex
-  }
+#links > ul{
+  width: 35vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+li{
+  list-style-type: none;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
+
+#form-field{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 200px;
+  margin-top: 20px;
+}
+
+
+
+ 
