@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Product-Landing Page</title>
 </head>
 <body>
@@ -15,21 +16,23 @@
         </div>
 
         <nav class="links">
-            <a href="#">Features</a>
-            <a href="#">How it works</a>
-            <a href="#">Pricing</a>
+            <ul>
+                <li><a class="nav-link" href="#Features">Features</a></li>
+                <li><a class="nav-link" href="#HowItWorks">How it works</a></li>
+                <li><a class="nav-link" href="#Pricing">Pricing</a></li>
+            </ul>
         </nav>
     </nav>
 </header>
 
+<!-- form-field -->
     <h2 class="form-heading">Handcrafted, home-made masterpieces</h2>
-    <!-- form-field -->
     <form id="form" action="https://www.freecodecamp.com/email-submit">
         <input id="email" type="email" placeholder="Email Address" name="email">
         <input id="submit" type="submit" placeholder="Submit" name="submit">
     </form>
 
-    <div class="company-feautres">
+    <div id="Features" class="company-feautres">
         <div class="premium">
             <h2>Premium Materials</h2>
             <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
@@ -47,10 +50,12 @@
     </div>
 
     <div id="video">
-        <iframe id="vid-tut"  height="315" src="https://youtu.be/y8Yv4pnO7qc"></iframe>
+        <div id="HowItWorks">
+            <iframe id="video"  height="315" src="https://youtu.be/y8Yv4pnO7qc"></iframe>
+        </div>
     </div>
 
-    <div class="pricing">
+    <div id="Pricing" class="pricing">
         <div class="tenor">
             <h2>Tenor Trombone</h2>
         </div>
@@ -63,5 +68,13 @@
             <h2>Valve Trombone</h2>
         </div>
     </div>
+
+    <footer id="footer"><footer>&copy; Copyright 2016, Original Trombones</footer>
+        <div>
+            <a href="">Privacy</a>
+            <a href="">Terms</a>
+            <a href="">Contract</a>
+        </div>
+    </footer>
 </body>
 </html>
